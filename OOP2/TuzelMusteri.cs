@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace OOP2
+{
+    // Coorporate
+    // Miras yada inheratance diyoruz bbu :musteri olayına.
+    class TuzelMusteri:Musteri
+    {
+
+        public string SirketAdi { get; set; }
+        public string VergiNo { get; set; }
+    }
+}
+}
